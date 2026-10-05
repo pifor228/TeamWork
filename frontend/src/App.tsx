@@ -105,14 +105,6 @@ api.get<Product[]>(`/product/?${params.toString()}`)
 
 
 
-        <div style={{ marginBottom: "20px", display: "flex", gap: "10px", flexWrap: "wrap" }}>
-          <input className={styles.cgr}
-            type="text"
-            placeholder="Поиск товара"
-            value={search}
-            onChange={(event) => setSearch(event.target.value)}
-          />
-        </div>
         <div>
           <section className={styles.crrd}>
             <h1 className={styles.title}>Фильмы</h1>
