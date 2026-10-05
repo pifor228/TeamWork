@@ -2,3 +2,7 @@
 /venv/
 myvenv/
 node_modules/
+__pycache__/
+*.pyc
+env/
+*.pyo
